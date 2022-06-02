@@ -20,3 +20,12 @@ async def on_ready():
     print("# BOT READY #"+\
          f"Name: {bot.user.name}"+\
          f"ID  : {bot.user.id}\n")
+
+@bot.command
+async def status():
+    '''
+    Command to check whether the bot is resposive on discord
+    '''
+    print("# SIGNAL RECEIVED #")
+
+bot.run(input("Token: "))
