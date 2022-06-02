@@ -17,8 +17,8 @@ async def on_ready():
     '''
     Print basic information when the bot is ready
     '''
-    print("# BOT READY #"+\
-         f"Name: {bot.user.name}"+\
+    print("# BOT READY #\n"+\
+         f"Name: {bot.user.name}\n"+\
          f"ID  : {bot.user.id}\n")
 
 @bot.command
